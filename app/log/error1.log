@@ -1,0 +1,36 @@
+[Mar 17 2013 10:03:49] 'Could not connect to database: 1045-Access denied for user 'futbol2'@'localhost' (using password: YES)' in /media/sf_tests/app/class/mysqldatabase.class.php(73)
+#0 /media/sf_tests/app/class/mysqldatabase.class.php(43): MysqlDatabase->__construct('futbol')
+#1 /media/sf_tests/app/model/season.model.php(30): MysqlDatabase::getInstance('futbol')
+#2 /media/sf_tests/app/class/factory.class.php(29): SeasonModel->__construct()
+#3 /media/sf_tests/app/class/controller.class.php(74): Factory::getInstance('SeasonModel')
+#4 /media/sf_tests/app/class/controller.class.php(61): Controller->loadModel('SeasonModel')
+#5 /media/sf_tests/app/controller/match/index.ctrl.php(29): Controller->getData('SeasonModel', 'getLastSeason', Array)
+#6 /media/sf_tests/app/class/dispatcher.class.php(95): IndexMatchController->run()
+#7 /media/sf_tests/app/class/dispatcher.class.php(39): Dispatcher->executeController()
+#8 /media/sf_tests/htdocs/index.php(15): Dispatcher->run()
+#9 {main}
+
+[Mar 17 2013 10:18:01] 'Could not connect to database: 1045-Access denied for user 'futbol2'@'localhost' (using password: YES)' in /media/sf_tests/app/class/mysqldatabase.class.php(73)
+#0 /media/sf_tests/app/class/mysqldatabase.class.php(43): MysqlDatabase->__construct('futbol')
+#1 /media/sf_tests/app/model/season.model.php(30): MysqlDatabase::getInstance('futbol')
+#2 /media/sf_tests/app/class/factory.class.php(29): SeasonModel->__construct()
+#3 /media/sf_tests/app/class/controller.class.php(74): Factory::getInstance('SeasonModel')
+#4 /media/sf_tests/app/class/controller.class.php(61): Controller->loadModel('SeasonModel')
+#5 /media/sf_tests/app/controller/match/index.ctrl.php(29): Controller->getData('SeasonModel', 'getLastSeason', Array)
+#6 /media/sf_tests/app/class/dispatcher.class.php(95): IndexMatchController->run()
+#7 /media/sf_tests/app/class/dispatcher.class.php(39): Dispatcher->executeController()
+#8 /media/sf_tests/htdocs/index.php(15): Dispatcher->run()
+#9 {main}
+
+[Mar 17 2013 10:22:18] 'Could not connect to database: 1045-Access denied for user 'www-data'@'localhost' (using password: NO)' in /media/sf_tests/app/class/mysqldatabase.class.php(73)
+#0 /media/sf_tests/app/class/mysqldatabase.class.php(43): MysqlDatabase->__construct('football')
+#1 /media/sf_tests/app/model/season.model.php(30): MysqlDatabase::getInstance('football')
+#2 /media/sf_tests/app/class/factory.class.php(29): SeasonModel->__construct()
+#3 /media/sf_tests/app/class/controller.class.php(74): Factory::getInstance('SeasonModel')
+#4 /media/sf_tests/app/class/controller.class.php(61): Controller->loadModel('SeasonModel')
+#5 /media/sf_tests/app/controller/match/index.ctrl.php(29): Controller->getData('SeasonModel', 'getLastSeason', Array)
+#6 /media/sf_tests/app/class/dispatcher.class.php(95): IndexMatchController->run()
+#7 /media/sf_tests/app/class/dispatcher.class.php(39): Dispatcher->executeController()
+#8 /media/sf_tests/htdocs/index.php(15): Dispatcher->run()
+#9 {main}
+

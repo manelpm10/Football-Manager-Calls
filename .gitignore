@@ -1,0 +1,4 @@
+app/tmp/cache/*
+app/tmp/templates_c/*
+app/tmp/uploaded/*
+/nbproject/private/
