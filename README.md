@@ -20,4 +20,4 @@ It's hard ask person by person every week if is available for the next match, so
 + If you want enable the email alerts for calls, add a cron job for the script app/cron/sendCall.script.php
 
 For more informations, see the
-[**dedicated page**](https://github.com/manelpm10/football).
+[**dedicated page**](https://github.com/manelpm10/Football-Manager-Calls).
